@@ -21,4 +21,12 @@ type User {
   type Auth {
       token: ID!
       user: User
+  }
+  
+  type Query {
+      me:User
+  }
+  
+  type Mutaution {
+      
   }`
